@@ -36,4 +36,4 @@ class PicInfo:
 
 
 def parse(xmlpath):
-	return Pic(ET.parse(xmlpath))
+	return PicInfo(ET.parse(xmlpath))
